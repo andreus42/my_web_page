@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Andrew's Awesome Webpage</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <h1>Create a part master!</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>My column</th>
+          <th>My second column</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label for="part">Part</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="part"
+              id="part"
+              value=".."
+              placeholder=".."
+            />
+          </td>
+          <td rowspan="3">
+            <label for="part_desctiption">Anything else you want to add?</label>
+            <br />
+            <textarea
+              id="part_desctiption"
+              name="part_desctiption"
+              rows="3"
+              cols="40"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="part_type">Part_type</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="part_type"
+              id="part_type"
+              value=".."
+              placeholder=".."
+            />
+          </td>
+          
+        </tr>
+
+        <section class="application-selection">
+        <tr>
+          <td>
+            <label for="application">Application</label>
+          </td>
+          <td>
+            <input list="applications" id="application" name="application" />
+              <datalist id="applications">
+                <option value="49000">49000 Series</option>
+                <option value="59000">59000 Series</option>
+                <option value="69000">69000 Series</option>
+              </datalist>
+            </td>
+        </section>
+          </td>
+
+
+        </tr>
+        <tr></tr>
+      </tbody>
+    </table>
+  </body>
+</html>
