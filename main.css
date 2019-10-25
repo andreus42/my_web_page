@@ -1,22 +1,36 @@
 body {
-    background: rgba(233, 236, 179, 0.637);
+    background: rgba(243, 181, 67, 0.637);
     margin: 0;
     padding: 0;
   }
 h1 {
   text-align: center;
 }
+img {
+  align: center;
+}
 table, td {
     /* border: 1px solid black; */
 }
-.navigation {
-    box-sizing: border-box;
-    background-color: #3587A4;
-    overflow: auto;
-    padding: 18px 50px;
-    position: relative;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-  }
-  
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+section {
+  text-align: center;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center
+  display: inline;
+}
+/* li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+} */
